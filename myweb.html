@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal Agarwal</title>
+<link rel="stylesheet" href="myweb.css">
+</head>
+<body>
+
+<header>
+<nav>
+<a href="#home">Home</a>
+<a href="#achievements">Achievements</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<main>
+<section id="home">
+<img src="images/profile.jpg" alt="Vishal Agarwal" class="profile-pic">
+<h1>Vishal Agarwal</h1>
+<p>Frontend Developer & Azure Architect</p>
+<p>Currently studying at VIT Chennai. Completed schooling at Greenwood Public School.</p>
+
+<div class="social-icons">
+<img src="images/icon1.png" alt="Social Icon 1">
+<img src="images/icon2.png" alt="Social Icon 2">
+<img src="images/icon3.png" alt="Social Icon 3">
+</div>
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+<ul>
+<li>Certified Azure Solutions Architect</li>
+<li>Winner of the XYZ Hackathon 2023</li>
+<li>Published 3 research papers on cloud computing</li>
+</ul>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<ul>
+<li>Project A - A web application for XYZ</li>
+<li>Project B - An AI-powered tool for ABC</li>
+<li>Project C - A mobile app for DEF</li>
+</ul>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2024 Vishal Agarwal</p>
+</footer>
+
+<div class="background-animations">
+    <div class="circle"></div>
+    <div class="square"></div>
+    <div class="triangle"></div>
+</div>
+
+<script type='text/javascript'>
+// JavaScript for interactive elements
+document.addEventListener('DOMContentLoaded', () => {
+    const icons = document.querySelectorAll('.social-icons img');
+    icons.forEach(icon => {
+        icon.addEventListener('mouseenter', () => {
+            icon.style.transform = 'scale(1.2)';
+        });
+        icon.addEventListener('mouseleave', () => {
+            icon.style.transform = 'scale(1)';
+        });
+    });
+});
+</script>
+
+</body>
+</html>
